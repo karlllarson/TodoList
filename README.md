@@ -1,8 +1,12 @@
 # TodoList Example
+
+
 ## Functionality
 ### This dynamic web project:
 - uses a JSP file to dispay a Todo html form
 - uses a servlet to receive a todoid and description from the JSP file and output
+
+<hr/>
 
 ## Exemplary Source Code Snippets
 ### index.jsp
@@ -51,6 +55,7 @@ function validateForm() {
 </body>
 </html>
 ```
+
 ### processForm.java
 ```java
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -62,6 +67,18 @@ function validateForm() {
 		request.setAttribute("post", "post");
 	}
 ```
+
+<hr/>
+
 ## Exemplary Screen Shots showing flow
 
+<img height="400" src="https://user-images.githubusercontent.com/35807054/118881107-4d947400-b8b8-11eb-961d-5c0f1bcb3c31.PNG" />
+
+<img height="400" src="https://user-images.githubusercontent.com/35807054/118881109-4d947400-b8b8-11eb-9783-d32f35c6c5b2.PNG" />
+
+<img height="400" src="https://user-images.githubusercontent.com/35807054/118881105-4d947400-b8b8-11eb-9497-8df0eed8e0a2.PNG" />
+
+<hr/>
+
+## Contact Information
 If you'd like to me contact me, then feel free to email me at klarson@larsonipl.com or visit my website at [my website](http://msn.com).
